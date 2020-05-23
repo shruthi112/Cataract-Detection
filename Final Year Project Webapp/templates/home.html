@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>MOTIBINDU | Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="home.html" class="navbar-brand"><strong>MOTIBINDU</strong></a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collape navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home-section">
+      <div class="dark-overlay">
+        <div class="home-inner container">
+          <div class="row">
+            <div class="col-lg-8 d-none d-lg-block">
+              <h1 class="display-4">
+                <strong>Detect</strong> Early with <strong>MOTIBINDU</strong>
+              </h1>
+              <div class="d-flex">
+                <div class="p-4 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  Detect cataract eye while sitting at your home by your own device
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="p-4 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  Meet Experienced Doctors directly & Free followup
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="p-4 align-self-start">
+                  <i class="fas fa-check fa-2x"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                 	Digital prescription through emails and mesaages
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card bg-primary text-center card-form h-100">
+                <div class="card-body p-5">
+                  <h3>Check here Today</h3>
+                  <p>Upload Your eye picture here</p>
+                  <form enctype="multipart/form-data" method="POST">
+                    <div class="form-group">
+                      <label for="files" class="btn btn-outline-light"
+                        >Select Image</label
+                      >
+                      <input
+                        type="file"
+                        name="file"
+                        accept="image/*;capture=camera"
+                        id="files"
+                        name="file"
+                        style="visibility: hidden;"
+                        type="file"
+                        class="form-control"
+                        required
+                      />
+
+                      <button class="btn btn-outline-light" type="submit">
+                        Upload Image
+                      </button>
+                    </div>
+                  </form>
+                  <!-- <form method="POST" enctype=multipart/form-data>
+                    <input type="file" name="file" accept="image/*;capture=camera">
+                    <button type="submit">Submit</button>
+                </form> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="display-4">WHY MOTIBINDU ?</h1>
+            <p class="lead">
+             The virtual detecting system allows you to detect your eye disease early.
+             Also, No need to leave your house and go out for checkup.
+             Reports are ready in your hand.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explore-section" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="../static/img/section.jpg"
+              alt=""
+              class="img-fluid mb-3 rounded-circle"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>About MOTIBINDU</h3>
+            <p>
+              We provide the full proof solution on your cataract or any eye disease in just seconds.
+              You don't need to pay anything for it , it just free for all people.
+            </p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Simple & Smart
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+               Handy & Easy to use.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-4">
+            <h3>Motibindu</h3>
+            <p>Copyright &copy; <span id="year"></span></p>
+            <button
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#contactModal"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade text-dark" id="contactModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact Us</h5>
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" class="form-control"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary btn-block">Submit</button>
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+      $("#files").change(function () {
+        filename = this.files[0].name;
+        console.log(filename);
+      });
+    </script>
+  </body>
+</html>
